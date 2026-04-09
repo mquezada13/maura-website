@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Maura E. Ramirez-Quezada</title>
+  <meta
+    name="description"
+    content="Academic and technical website of Maura E. Ramirez-Quezada: astroparticle physics, data science, machine learning, and reproducible computational workflows."
+  />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-grid">
+      <div class="header-text">
+        <p class="eyebrow">Academic / Technical Profile</p>
+        <h1>Maura E. Ramirez-Quezada</h1>
+        <p class="tagline">
+          Astroparticle physics, data science, and reproducible computational pipelines.
+        </p>
+        <p class="intro-note">
+          PhD-level researcher with experience in astroparticle physics, scientific computing,
+          and real-world data workflows, currently expanding into data science and machine learning.
+        </p>
+      </div>
+
+      <figure class="profile-figure">
+        <img
+          src="photo.jpg"
+          alt="Professional portrait of Maura E. Ramirez-Quezada"
+          class="profile-photo"
+        />
+      </figure>
+    </div>
+  </header>
+
+  <nav class="site-nav">
+    <div class="container">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#project">Selected Project</a></li>
+        <li><a href="#research">Research</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#talks">Talks</a></li>
+        <li><a href="#publications">Publications</a></li>
+        <li><a href="#outreach">Outreach & Impact</a></li>
+        <li><a href="#links">Links</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="container">
+    <section id="about" class="content-section">
+      <h2>About</h2>
+      <p>
+        I am a particle and astroparticle physicist with research experience spanning dark matter,
+        compact objects, beyond-the-Standard-Model physics, and computational modelling. Alongside
+        my academic work, I am building a stronger focus on data science and machine learning through
+        applied work on real-world, noisy datasets. My interests lie in reproducible computational
+        workflows, feature engineering, robust validation, and technically credible data analysis.
+      </p>
+    </section>
+
+    <section id="project" class="content-section">
+      <h2>Selected Project</h2>
+
+      <article class="project-card">
+        <header class="project-header">
+          <h3>Cineon: Stress inference from multimodal behavioural time-series</h3>
+          <p class="project-subtitle">
+            Science to Data Science (S2DS) industry project
+          </p>
+        </header>
+
+        <div class="project-block">
+          <h4>Problem</h4>
+          <p>
+            The project investigated whether stress could be inferred from naturalistic eye-tracking
+            and head IMU data collected during user sessions.
+          </p>
+        </div>
+
+        <div class="project-block">
+          <h4>What I did</h4>
+          <p>
+            I contributed to the development of an end-to-end pipeline from raw multimodal sensor
+            data to model-ready features. This included segmentation into fixed windows, behavioural
+            feature extraction from eye and head signals, and evaluation of classification performance
+            under participant-aware validation.
+          </p>
+        </div>
+
+        <div class="project-block">
+          <h4>Technical decisions</h4>
+          <p>
+            A central part of the work was handling noisy real-world data while preserving technical
+            interpretability. This meant building robust preprocessing steps, designing meaningful
+            behavioural features, and explicitly avoiding data leakage by validating across disjoint
+            participants so that performance better reflected realistic generalisation.
+          </p>
+        </div>
+      </article>
+    </section>
+
+    <section id="research" class="content-section">
+      <h2>Research</h2>
+      <p>
+        My research areas include dark matter, compact stars, white dwarfs, neutron stars, neutrino
+        physics, gravitational-wave-adjacent compact object phenomenology, and beyond-the-Standard-Model
+        physics. My work combines theoretical modelling, numerical analysis, and scientific computing.
+      </p>
+    </section>
+
+    <section id="education" class="content-section">
+      <h2>Education</h2>
+
+      <article class="entry">
+        <div class="entry-years">2016–2021</div>
+        <div class="entry-body">
+          <h3>PhD in Particle Physics</h3>
+          <p class="entry-meta">Durham University, United Kingdom</p>
+          <p>Thesis: “Probing BSM Physics with CP-violation, Neutrinos and White Dwarfs”</p>
+        </div>
+      </article>
+
+      <article class="entry">
+        <div class="entry-years">2013–2016</div>
+        <div class="entry-body">
+          <h3>M.Sc. in Theoretical Physics</h3>
+          <p class="entry-meta">Universidad de Sonora, Mexico</p>
+          <p>Thesis: “Physics of the QED plasma”</p>
+        </div>
+      </article>
+    </section>
+
+    <section id="experience" class="content-section">
+      <h2>Research Experience</h2>
+
+      <article class="entry">
+        <div class="entry-years">Since 2023</div>
+        <div class="entry-body">
+          <h3>Postdoctoral Research Fellow</h3>
+          <p class="entry-meta">Johannes Gutenberg University Mainz, Germany</p>
+          <p>Research topics: first-order phase transitions, dark matter, compact stars, BSM physics.</p>
+        </div>
+      </article>
+
+      <article class="entry">
+        <div class="entry-years">2021–2023</div>
+        <div class="entry-body">
+          <h3>Postdoctoral Research Fellow</h3>
+          <p class="entry-meta">The University of Tokyo, Japan</p>
+          <p>Research topics: dark matter, compact stars, neutrinos.</p>
+        </div>
+      </article>
+    </section>
+
+    <section id="mentorship" class="content-section">
+      <h2>Academic Mentorship</h2>
+
+      <article class="entry">
+        <div class="entry-years">Since 2024</div>
+        <div class="entry-body">
+          <h3>M.Sc. Maria José Fernández Lozano</h3>
+          <p>
+            Provided support in the development of the PhD research project and introduced her
+            to the study of white dwarf cooling through new physics.
+          </p>
+        </div>
+      </article>
+
+      <article class="entry">
+        <div class="entry-years">Since 2024</div>
+        <div class="entry-body">
+          <h3>M.Sc. Cristina Puchades Ibáñez</h3>
+          <p>
+            Provided support in the development of the PhD research project, including reviewing
+            results, verifying calculations, and participating in regular discussions to refine
+            the analysis methodology.
+          </p>
+        </div>
+      </article>
+
+      <article class="entry">
+        <div class="entry-years">2023–2024</div>
+        <div class="entry-body">
+          <h3>M.Sc. Martin Christiansen</h3>
+          <p>
+            Assisted in the development of the Master’s thesis proposal, reviewed results, and
+            provided feedback on the thesis.
+          </p>
+        </div>
+      </article>
+
+      <article class="entry">
+        <div class="entry-years">2022–2024</div>
+        <div class="entry-body">
+          <h3>PhD Jaime Hoefken Zink and PhD Shihwen Hor</h3>
+          <p>
+            Introduced them to the study of dark matter capture rate and stellar physics, helping
+            to develop an understanding of the core concepts and theories and advising on the
+            application of these ideas in ongoing research.
+          </p>
+        </div>
+      </article>
+    </section>
+
+    <section id="talks" class="content-section">
+      <h2>Talks</h2>
+
+      <div class="subsection-block">
+        <h3>Plenary Talk</h3>
+        <ul class="clean-list">
+          <li>
+            <strong>Oct. 2024</strong> — Particle Physics and Cosmology 2024 Workshop,
+            Hyderabad, India<br />
+            <span>Title: “DM Heating vs. Vortex Creep Heating of Old NS”</span>
+          </li>
+        </ul>
+      </div>
+
+      <div class="subsection-block">
+        <h3>Conference Talks</h3>
+        <ul class="clean-list">
+          <li><strong>March 2024</strong> — Quarkonia meet dark matter workshop 2024, Munich, Germany<br><span>Title: “Probing DM Interactions through WD Observations”</span></li>
+          <li><strong>June 2023</strong> — 24th New Physics Forum, Tokyo, Japan<br><span>Title: “WD cooling through dark sector physics”</span></li>
+          <li><strong>June 2022</strong> — Planck 2022, Paris, France<br><span>Title: “Neutron Star Heating and the Muon g-2 Discrepancy”</span></li>
+          <li><strong>Sep. 2021</strong> — COCo 2021, Online<br><span>Title: “DM capture in WDs”</span></li>
+          <li><strong>Aug. 2021</strong> — Asia-Pacific Workshop on Particle Physics and Cosmology 2021, Online<br><span>Title: “Dark Matter Capture in White Dwarfs”</span></li>
+        </ul>
+      </div>
+
+      <div class="subsection-block">
+        <h3>Seminars</h3>
+        <ul class="clean-list">
+          <li><strong>Dec. 2023</strong> — Theory Palaver Seminar, JGU Mainz, Mainz, Germany<br><span>Title: “The Dark in the White”</span></li>
+          <li><strong>May 2023</strong> — Tokyo Women’s Christian University, Tokyo, Japan<br><span>Title: “Compact Stars: a window to new physics”</span></li>
+          <li><strong>Jan. 2023</strong> — IPMU, Tokyo, Japan<br><span>Title: “Exploring new physics with compact stars”</span></li>
+          <li><strong>July 2022</strong> — University of Gottingen, Gottingen, Germany<br><span>Title: “White Dwarfs as Dark Matter Probes”</span></li>
+          <li><strong>July 2022</strong> — Max Planck Institute for Physics, Munich, Germany<br><span>Title: “Dark matter capture in compact objects: a window to BSM physics”</span></li>
+          <li><strong>March 2022</strong> — University of Sydney, Online<br><span>Title: “Circular polarisation: a window to physics BSM”</span></li>
+          <li><strong>Nov. 2021</strong> — National Tsing Hua University, Taiwan, Online<br><span>Title: “Search of dark matter using white dwarfs”</span></li>
+          <li><strong>Sep. 2021</strong> — Instituto de Ciencias Nucleares UNAM, Online<br><span>Title: “Enanas blancas como potenciales candidatos para la detección de materia oscura”</span></li>
+          <li><strong>June 2021</strong> — Cinvestav, Mexico, Online<br><span>Title: “Captura de materia oscura en enanas blancas”</span></li>
+          <li><strong>Nov. 2019</strong> — Institute for Particle Physics Phenomenology, Durham, UK<br><span>Title: “Very preliminary results in DM capture in WDs”</span></li>
+          <li><strong>Sep. 2019</strong> — KAIST / Korean Institute for Advanced Study, Seoul, Korea<br><span>Title: “Dark matter capture in WDs”</span></li>
+          <li><strong>Feb. 2019</strong> — University of Sydney, Sydney, Australia<br><span>Title: “Polarisation of high energy gamma rays after scattering”</span></li>
+        </ul>
+      </div>
+
+      <div class="subsection-block">
+        <h3>Workshops</h3>
+        <ul class="clean-list">
+          <li><strong>June 2017</strong> — Invisibles17 Workshop, Zurich, Switzerland</li>
+          <li><strong>Feb. 2017</strong> — Higgs Maxwell Meeting, Edinburgh, UK</li>
+          <li><strong>Feb. 2019</strong> — Higgs Maxwell Meeting, Edinburgh, UK</li>
+          <li><strong>June 2019</strong> — Planck 2019, Granada, Spain</li>
+          <li><strong>June 2019</strong> — Invisibles19 Workshop, Valencia, Spain</li>
+          <li><strong>Sep. 2019</strong> — Neples-2019, Seoul, Korea</li>
+          <li><strong>Aug. 2021</strong> — Asia-Pacific Workshop on Particle Physics and Cosmology 2021, Online</li>
+          <li><strong>Aug. 2021</strong> — XIX Mexican School of Particles and Fields, Online</li>
+          <li><strong>Sep. 2021</strong> — COCo 2021: Cosmology in Colombia, Online</li>
+          <li><strong>June 2022</strong> — Planck 2022, Paris, France</li>
+          <li><strong>June 2022</strong> — Invisibles22 Workshop, Orsay, France</li>
+          <li><strong>July 2023</strong> — 24th New Physics Forum, Tokyo, Japan</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="awards" class="content-section">
+      <h2>Awards & Scholarships</h2>
+      <ul class="clean-list">
+        <li><strong>2019–2020</strong> — Mexican National Council of Science and Technology (CONACyT), 12-month extension scholarship for PhD studies abroad.</li>
+        <li><strong>2016–2019</strong> — Mexican National Council of Science and Technology (CONACyT), 36-month scholarship for PhD studies abroad.</li>
+        <li><strong>2017–2018</strong> — Perimeter Institute’s Visiting Graduate Fellowship for outstanding researchers.</li>
+        <li><strong>2014–2016</strong> — Mexican National Council of Science and Technology (CONACyT), 24-month scholarship for MSc studies at a national institution.</li>
+      </ul>
+    </section>
+
+    <section id="publications" class="content-section">
+      <h2>Selected Publications</h2>
+      <ul class="clean-list publications-list">
+        <li>Vortex creep heating vs. dark matter heating in neutron stars. <em>Phys. Lett. B</em> 848 (2024), 138341.</li>
+        <li>Vortex creep heating in neutron stars. <em>JCAP</em> 03 (2024), 051.</li>
+        <li>Exploring the dark sectors via the cooling of white dwarfs. <em>Phys. Rev. D</em> 108 (2023) 4, 043014.</li>
+        <li>Thermal Leptogenesis in the Minimal Gauged U(1)<sub>Lμ−Lτ</sub>. <em>JHEP</em> 09 (2023), 079.</li>
+        <li>Light scalar explanation for the 18 TeV GRB 221009A. <em>Phys. Rev. D</em> 107 (2023) 8.</li>
+        <li>Constraining DM interactions mediated by a light scalar with WDs. <em>Phys. Rev. D</em> 107 (2023) 8, 083022.</li>
+        <li>Neutron Star Heating in Dark Matter Models for the Muon g−2 Discrepancy. <em>JHEP</em> 10:088, 2022.</li>
+        <li>Improved treatment of dark matter capture in white dwarfs. <em>JCAP</em>, 10:083, 2021.</li>
+        <li>CP violation in the lepton neutrino dipole moment. <em>JHEP</em>, 12:090, 2020.</li>
+        <li>CP violation and circular polarisation in neutrino radiative decay. <em>JHEP</em>, 04:178, 2020.</li>
+        <li>Polarisation of high energy gamma-rays after scattering. <em>JCAP</em>, 12:041, 2019.</li>
+      </ul>
+    </section>
+
+    <section id="visiting" class="content-section">
+      <h2>Visiting Research</h2>
+      <ul class="clean-list">
+        <li><strong>2019</strong> — Student Research Visitor, Korean Institute for Advanced Study, Seoul, Korea.</li>
+        <li><strong>2018–2019</strong> — Student Research Visitor, University of Sydney, Sydney, NSW, Australia.</li>
+        <li><strong>2017–2018</strong> — Visiting Graduate Fellowship Program, Perimeter Institute, Waterloo, ON, Canada.</li>
+        <li><strong>2013</strong> — Summer Science Programs, Universidad de Colima, Colima, Mexico.</li>
+      </ul>
+    </section>
+
+    <section id="outreach" class="content-section">
+      <h2>Outreach & Impact</h2>
+      <p class="section-intro">
+        In parallel with research, I value scientific outreach, international collaboration,
+        and initiatives that broaden access to science, particularly for women and younger students.
+      </p>
+
+      <ul class="clean-list">
+        <li><strong>Feb. 2025</strong> — Solar Juvenil Oaxaqueño: Jornada Cultural 2025, Online.</li>
+        <li><strong>Feb. 2025</strong> — Banderazo de Inicio del Programa Institucional de Mentoría STEM de la Universidad de Colima, Colima, Mexico.</li>
+        <li><strong>March 2024</strong> — Conversatorio de Altas Energías, CUWiP-México, Online.</li>
+        <li><strong>Feb. 2023</strong> — Mujer en la Ciencia (Women in Science), Universidad de Colima, Colima, Mexico.</li>
+        <li><strong>March 2019</strong> — International Particle Physics Masterclass 2019, Durham University, Durham, UK.</li>
+        <li><strong>Sep. 2018</strong> — Gravity Fields Festival 2018, Grantham Canal Society, Grantham, UK.</li>
+        <li><strong>July 2018</strong> — Royal Society Summer Science Exhibition, “Ghost in the Universe”, London, UK.</li>
+        <li><strong>July 2017</strong> — Royal Society Summer Science Exhibition, “Modelling the Invisible”, London, UK.</li>
+      </ul>
+
+      <p class="book-link">
+        I am also co-author of a book promoting women in science:
+        <a
+          href="https://eulac.org/2025/12/el-derecho-a-ser-cientificas-coleccion-de-ensayos/"
+          target="_blank"
+          rel="noopener"
+        >
+          El derecho a ser científicas: colección de ensayos
+        </a>.
+      </p>
+    </section>
+
+    <section id="links" class="content-section">
+      <h2>Links</h2>
+      <ul class="clean-list">
+        <li><a href="cv.pdf" target="_blank" rel="noopener">CV (PDF)</a></li>
+        <li><a href="https://github.com/yourusername" target="_blank" rel="noopener">GitHub</a></li>
+        <li><a href="mailto:your.email@example.com">Email</a></li>
+        <li>
+          <a
+            href="https://eulac.org/2025/12/el-derecho-a-ser-cientificas-coleccion-de-ensayos/"
+            target="_blank"
+            rel="noopener"
+          >
+            Book
+          </a>
+        </li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2026 Maura E. Ramirez-Quezada</p>
+    </div>
+  </footer>
+</body>
+</html>

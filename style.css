@@ -1,0 +1,285 @@
+:root {
+  --bg: #ffffff;
+  --text: #1a1a1a;
+  --muted: #666666;
+  --line: #dddddd;
+  --soft: #f6f6f6;
+  --accent: #2f4f6f;
+  --max-width: 980px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: Georgia, "Times New Roman", serif;
+  line-height: 1.65;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  text-decoration: underline;
+}
+
+.container {
+  width: min(100% - 2rem, var(--max-width));
+  margin: 0 auto;
+}
+
+/* Header */
+.site-header {
+  padding: 3.5rem 0 2.5rem;
+  border-bottom: 1px solid var(--line);
+}
+
+.header-grid {
+  display: grid;
+  grid-template-columns: 1.6fr 0.9fr;
+  gap: 2rem;
+  align-items: center;
+}
+
+.eyebrow {
+  margin: 0 0 0.75rem;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  font-size: 0.9rem;
+}
+
+h1 {
+  margin: 0;
+  font-size: clamp(2.2rem, 4vw, 3.4rem);
+  line-height: 1.1;
+  font-weight: 600;
+}
+
+.tagline {
+  margin: 1rem 0 0.8rem;
+  font-size: 1.08rem;
+  color: var(--accent);
+}
+
+.intro-note {
+  margin: 0;
+  max-width: 42rem;
+  color: var(--muted);
+}
+
+.profile-figure {
+  margin: 0;
+  justify-self: end;
+}
+
+.profile-photo {
+  width: 240px;
+  aspect-ratio: 1 / 1.1;
+  object-fit: cover;
+  border: 1px solid var(--line);
+  background: var(--soft);
+}
+
+/* Nav */
+.site-nav {
+  border-bottom: 1px solid var(--line);
+  background: #fff;
+}
+
+.site-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0.8rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem 1.4rem;
+}
+
+.site-nav a {
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.site-nav a:hover,
+.site-nav a:focus {
+  color: var(--text);
+}
+
+/* Main */
+main {
+  padding: 2.25rem 0 4rem;
+}
+
+.content-section {
+  padding: 2rem 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.content-section:last-of-type {
+  border-bottom: none;
+}
+
+h2 {
+  margin: 0 0 1rem;
+  font-size: 1.5rem;
+  color: var(--accent);
+  font-weight: 600;
+}
+
+h3 {
+  margin: 0 0 0.35rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+h4 {
+  margin: 0 0 0.35rem;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+p {
+  margin: 0;
+  max-width: 52rem;
+}
+
+.section-intro {
+  margin-bottom: 1rem;
+}
+
+/* Project */
+.project-card {
+  border: 1px solid var(--line);
+  padding: 1.3rem;
+  background: #fff;
+}
+
+.project-header {
+  margin-bottom: 1.2rem;
+}
+
+.project-subtitle {
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.project-block + .project-block {
+  margin-top: 1rem;
+}
+
+/* Entries */
+.entry {
+  display: grid;
+  grid-template-columns: 140px 1fr;
+  gap: 1.2rem;
+  padding: 0.8rem 0;
+}
+
+.entry + .entry {
+  border-top: 1px solid #efefef;
+}
+
+.entry-years {
+  color: var(--muted);
+  font-size: 0.98rem;
+  white-space: nowrap;
+}
+
+.entry-meta {
+  color: var(--muted);
+  margin-bottom: 0.25rem;
+}
+
+.subsection-block + .subsection-block {
+  margin-top: 1.75rem;
+}
+
+.clean-list {
+  margin: 0;
+  padding-left: 1.2rem;
+}
+
+.clean-list li + li {
+  margin-top: 0.7rem;
+}
+
+.clean-list span {
+  color: var(--muted);
+}
+
+.publications-list li {
+  margin-bottom: 0.5rem;
+}
+
+.book-link {
+  margin-top: 1.25rem;
+}
+
+/* Footer */
+.site-footer {
+  border-top: 1px solid var(--line);
+  padding: 1.5rem 0 2.5rem;
+}
+
+.site-footer p {
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+/* Responsive */
+@media (max-width: 800px) {
+  .site-header {
+    padding: 2.5rem 0 2rem;
+  }
+
+  .header-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .profile-figure {
+    justify-self: start;
+  }
+
+  .profile-photo {
+    width: 180px;
+  }
+
+  .entry {
+    grid-template-columns: 1fr;
+    gap: 0.4rem;
+  }
+
+  .entry-years {
+    font-weight: 600;
+    color: var(--text);
+  }
+
+  main {
+    padding: 1.75rem 0 3rem;
+  }
+
+  .content-section {
+    padding: 1.6rem 0;
+  }
+}
